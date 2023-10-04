@@ -42,7 +42,7 @@ If you want to compile NexiWave from source using PNPM, follow these steps:
 
 1. clone the repo
 ```console
-allure@T440P:~$ git clone https://github.com/NexiScape/NexiWave.git
+allure@T440P:~$ git clone https://github.com/NexiScape/NexiWave.git && cd NexiWave
 ```
 2. build the dependencies 
 ```console
