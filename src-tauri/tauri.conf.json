@@ -1,0 +1,76 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "https://music.youtube.com/",
+    "distDir": "https://music.youtube.com/",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "NexiWave",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "window": {
+        "maximize": false,
+        "print": true,
+        "requestUserAttention": false,
+        "setAlwaysOnTop": false,
+        "setClosable": false,
+        "setContentProtected": true,
+        "setCursorGrab": false,
+        "setCursorIcon": false,
+        "setCursorPosition": false,
+        "setCursorVisible": false,
+        "setDecorations": false,
+        "setFocus": true,
+        "setFullscreen": false,
+        "setIcon": true,
+        "setIgnoreCursorEvents": false,
+        "setMaxSize": false,
+        "setMaximizable": false,
+        "setMinSize": false,
+        "setMinimizable": false,
+        "setPosition": false,
+        "setResizable": false,
+        "setSize": false,
+        "setSkipTaskbar": false,
+        "setTitle": false,
+        "show": false,
+        "startDragging": false,
+        "unmaximize": false,
+        "unminimize": false
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.nexiscape.dev",
+      "icon": [
+        "icons/icon.ico"
+      ],
+        "windows": {
+          "webviewInstallMode": {
+            "type": "downloadBootstrapper"
+          }
+        }
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "NexiWave",
+        "width": 800,
+        "height": 600,
+        "center": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  }
+}
