@@ -2,7 +2,7 @@
 
 Welcome to NexiWave, the open-source gem designed to enhance your music streaming experience on YouTube Music while keeping resource usage minimal. 🚀
 <p align="center">
- <img width="250" height="250" src="https://github.com/NexiScape/NexiWave/assets/85907829/e8a1f779-bb99-497e-b3d7-3191b24e2727"
+ <img width="250" height="250" src="https://github.com/NexiScape/NexisWave/assets/85907829/e8a1f779-bb99-497e-b3d7-3191b24e2727"
 </p>
 
 ## About NexiWave
@@ -54,5 +54,5 @@ allure@T440P:~$ pnpm tauri build #debug mode: pnpm tauri dev
 ```
 4. Profit
 <p align="center">
- <img width="250" height="250" src="https://github.com/NexiScape/NexiWave/assets/85907829/715069e1-a547-4876-a490-fe56f0b47663"
+ <img width="250" height="250" src="https://github.com/NexiScape/NexisWave/assets/85907829/715069e1-a547-4876-a490-fe56f0b47663"
 </p>
