@@ -56,3 +56,8 @@ allure@T440P:~$ pnpm tauri build #debug mode: pnpm tauri dev
 <p align="center">
  <img width="250" height="250" src="https://github.com/NexiScape/NexisWave/assets/85907829/715069e1-a547-4876-a490-fe56f0b47663"
 </p>
+
+## TODO
+1. Adblock
+2. CSS injection
+3. Plugin/JS injection
