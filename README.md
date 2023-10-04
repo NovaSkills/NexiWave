@@ -64,3 +64,4 @@ allure@T440P:~$ pnpm tauri build #debug mode: pnpm tauri dev
 
 ## CREDITS
 allure | all the programming
+Kirosel | Logo & Name
