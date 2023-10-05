@@ -66,7 +66,7 @@ allure@T440P:~$ pnpm tauri build #debug mode: pnpm tauri dev
 allure | all the programming
 Kirosel | Logo & Name
 
-## .DEB BUILD (PC SPECS
+## The computer that built the .DEB file
 server@server
 
 OS: Ubuntu 22.04.3 LTS x86_64
