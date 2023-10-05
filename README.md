@@ -68,14 +68,13 @@ Kirosel | Logo & Name
 
 ## .DEB BUILD (PC SPECS
 server@server
+
 OS: Ubuntu 22.04.3 LTS x86_64
-Host: N4505-4L B0
+
 Kernel: 5.15.0-84-generic
-Uptime: 7 days, 13 hours, 12 mins
-Packages: 1299 (dpkg), 13 (snap)
-Shell: bash 5.1.16
-Resolution: 3840x2160
-Terminal: /dev/pts/0
+
 CPU: Intel Celeron N4505 (2) @ 2.900GHz
+
 GPU: Intel JasperLake [UHD Graphics]
+
 Memory: 2397MiB / 3754MiB
