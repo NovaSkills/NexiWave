@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "NexiWave",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -46,15 +46,30 @@
     },
     "bundle": {
       "active": true,
-      "targets": "all",
+      "targets": ["deb", "nsis", "msi", "app", "dmg", "updater"],
       "identifier": "com.nexiscape.dev",
       "icon": [
         "icons/icon.ico"
       ],
         "windows": {
+          "certificateThumbprint": null,
+          "digestAlgorithm": "sha256",
+	  "timestampUrl": "",
           "webviewInstallMode": {
             "type": "downloadBootstrapper"
           }
+        },
+        "deb": {
+          "files": {}
+        },
+        "externalBin": [],
+        "macOS": {
+          "entitlements": null,
+          "exceptionDomain": "",
+          "frameworks": [],
+          "providerShortName": null,
+          "signingIdentity": null,
+          "minimumSystemVersion": "10.13"
         }
     },
     "security": {
@@ -74,3 +89,4 @@
     ]
   }
 }
+

@@ -1,6 +1,6 @@
 [package]
 name = "NexiWave"
-version = "0.0.0"
+version = "1.1.0"
 description = "NexiWave 🎵🌊 - Your Lightweight YouTube Music Companion"
 authors = ["Allure"]
 license = ""
@@ -19,7 +19,9 @@ tauri-plugin-window-state = { git = "https://github.com/tauri-apps/plugins-works
 tauri-plugin-single-instance = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 serde_json = "1.0"
 
+
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem
 # DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
+
