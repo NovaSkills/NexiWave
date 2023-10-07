@@ -60,7 +60,7 @@ allure@T440P:~$ pnpm tauri build #debug mode: pnpm tauri dev
 ## TODO
 1. Adblock
 2. CSS injection
-3. Plugin/JS injection
+3. Plugin/JS injection (Almost done)
 
 ## CREDITS
 allure | all the programming
