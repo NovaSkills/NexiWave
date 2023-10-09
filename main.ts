@@ -29,10 +29,6 @@ function createWindow() {
     center: true,
     title: "NexiWave",
     autoHideMenuBar: true,
-    
-    webPreferences: {
-      preload: path.join(__dirname, 'test.js')
-    }
   })
 
  win.loadFile('app/index.html')
